@@ -1,0 +1,173 @@
+body{
+    background-color: #000;
+    display: block;
+    overflow-x: hidden;
+}
+
+.header{
+    position: fixed;
+    align-items: center;
+    float: none;
+}
+.navbar{
+    position: absolute;
+    width: 100%;
+    top:0;
+    left: 0;
+    background-image: 
+    url();
+    background-color: black;
+    transition: all 0.8s;
+    padding: 25px;
+    position: fixed;
+}
+
+.navbar:hover{
+    background-color: rgba(0, 255, 255, 0);
+}
+
+.logo{
+    width:150px;
+    height: auto;
+    position: static;
+}
+
+.nav-item{
+    text-decoration: none;
+    text-align: center;
+    color: #ffff;
+    transition: 0s all;
+}
+.nav-item:hover{
+    text-decoration: underline;
+    transition: 0s all;
+    margin-top: 6px;
+}
+
+.todos{
+   text-align: center;
+   width: 1900px;
+   background-color: black;
+   opacity: 1;
+   
+   
+    }
+
+
+.todos img{
+    filter: brightness(30%);
+}
+
+.todoss{
+    text-align: center;
+   width: 1900px;
+   background-color: black;
+   opacity: 1;
+   
+}
+
+.img-thumbnail{
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    transition: transform .5s ease;
+}
+
+.person{
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.img-thumbnail:hover{
+    transform: scale(1.1);
+}
+
+.fs-1{
+    color: aliceblue;
+    margin-top: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.fs-1:hover{
+transition: all 3s;
+color: blue;
+}
+
+.fs-6{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    color: rgb(201, 201, 201);
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.fs-5{
+    color: #ffff;
+    font-size: 20px;
+
+}
+
+.fs-5:hover{
+    text-decoration: none;
+    transition: 3s all;
+    color:#e91515
+}
+
+.critica{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+.linha{
+    width:30px;
+
+}
+
+.card{
+    margin-left: 40px;
+    margin-right: 40px;
+    
+
+}
+
+.img-poster{
+    width: 15%;
+    margin-left: 40px;
+    transition: all 4s;
+}
+
+.img-poster:hover{
+    transform: scale(1.1);
+
+}
+
+.img-postere{
+    width: 17%;
+    margin-left: 40px;
+    transition: all 4s;
+}
+
+.img-postere:hover{
+    transform: scale(1.1);
+}
+
+.form{
+    margin-top: 300px;
+    border: #e91515;
+}
+
+.mb-3{
+margin-top: 40px;
+  transition: all 3s;
+  border: #e91515;
+}
+
+.mb-3:hover{
+    border-radius: 45px;
+}
